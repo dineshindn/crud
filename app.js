@@ -13,7 +13,7 @@ const validators = require("./validators")
 
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to crud..." });
+  res.json({ message: "Welcome to crud...deployed done" });
 });
 
 
