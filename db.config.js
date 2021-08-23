@@ -5,5 +5,6 @@ module.exports = {
     password: 'Curd@2021!',
     database:'curd',
     port: 4000,
+    
 }
 
