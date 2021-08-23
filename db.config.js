@@ -1,9 +1,9 @@
 module.exports = {
     connectionLimit :10,
     host : 'localhost',
-    user: 'simmanager',
-    password: 'admin@2021',
-    database:'sim_manager_development',
+    user: 'curd',
+    password: 'Curd@2021!',
+    database:'curd',
     port: 4000,
 }
 
