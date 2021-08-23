@@ -3,7 +3,7 @@ module.exports = {
     host : 'localhost',
     user: 'curd',
     password: 'Curd@20!21',
-    database:'crud',
+    database:'curd',
     port: 4000,
 }
 
