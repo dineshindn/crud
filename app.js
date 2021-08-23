@@ -8,6 +8,14 @@ const app= express()
 // const query = require ("./database");
  const controllers = require("./controllers/index") 
 const validators = require("./validators")
+
+
+
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to crud." });
+});
+
 // const pool = mysql.createPool({
 //     connectionLimit :10,
 //         host : 'localhost',
