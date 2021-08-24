@@ -105,7 +105,7 @@ module.exports = {
     try {
      
       const result = await query("DELETE from Users WHERE id=?", [
-        req.body.id,
+        req.body.id, 
       ]);
       return res.status(200).send({
         status: 200,
