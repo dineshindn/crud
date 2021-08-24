@@ -105,12 +105,12 @@ module.exports = {
     try {
      
       const result = await query("DELETE from Users WHERE id=?", [
-        req.params.id,
+        req.body.id,
       ]);
       return res.status(200).send({
         status: 200,
         message: "Success",
-        data: `ID ${req.params.id} has been deleted from db`,
+        data: `ID ${req.body.id} has been deleted from db`,
       });
     } catch (err) {
       console.log(err);
